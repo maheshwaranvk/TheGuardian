@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18989" started-at="2021-04-24T12:54:57 IST" finished-at="2021-04-24T12:55:16 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.GuardianRunner@11758f2a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="18989" started-at="2021-04-24T12:54:57 IST" finished-at="2021-04-24T12:55:16 IST">
+      <class name="runner.GuardianRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.GuardianRunner@11758f2a]" name="setUpClass" is-config="true" duration-ms="416" started-at="2021-04-24T12:54:57 IST" finished-at="2021-04-24T12:54:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.GuardianRunner@11758f2a]" name="runScenario" duration-ms="17043" started-at="2021-04-24T12:54:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-24T12:55:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Check the First Story of The Guardian]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using xpath=//div[@class='css-1uiaxdu']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-M3E2BR1', ip: '192.168.29.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class='css-1uiaxdu']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-M3E2BR1', ip: '192.168.29.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:336)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at step.GuardianStepClass.top_headline_news_should_open(GuardianStepClass.java:71)
+at ✽.Top Headline news should open(file:///E:/Test%20Leaf/Eclipse/SeleniumTesting/TheGaudian/src/main/java/feature/theguardian.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.GuardianRunner@11758f2a]" name="tearDownClass" is-config="true" duration-ms="1509" started-at="2021-04-24T12:55:14 IST" finished-at="2021-04-24T12:55:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.GuardianRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
